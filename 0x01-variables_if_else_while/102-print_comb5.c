@@ -13,25 +13,25 @@ int main(void)
 		j = 48;
 		while  (j < 58)
 		{
-			k = i;
+			k = 48;
 			while (k < 58)
 			{
-				if (j == 48)
-					l = j + 1;
-				else
-					l = 48;
+				k = 48;
 				while (l < 58)
 				{
-					putchar(i);
-					putchar(j);
-					putchar(' ');
-					putchar(k);
-					putchar(l);
-					if (i == 57 && j == 56 && k == 57 && l == 57)
-						break;
-					putchar(',');
-					putchar(' ');
-					l++;
+					op1 = (i * 10) + j;
+					op2 = (k * 10) + l;
+					if (op1 < op2)
+						putchar(i);
+						putchar(j);
+						putchar(' ');
+						putchar(k);
+						putchar(l);
+						if (i == 57 && j == 56 && k == 57 && l == 57)
+							break;
+						putchar(',');
+						putchar(' ');
+						l++;
 				}
 				k++;
 			}
