@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int i = 48 , j = 48 , k = 48 , l = 48;
+	int i = 48, j = 48, k = 48, l = 48;
 
 	while (i < 58)
 	{
@@ -16,7 +16,10 @@ int main(void)
 			k = i;
 			while (k < 58)
 			{
-				l = j+1;
+				if (j == 48)
+					l = j + 1;
+				else:
+					l = 48;
 				while (l < 58)
 				{
 					putchar(i);
