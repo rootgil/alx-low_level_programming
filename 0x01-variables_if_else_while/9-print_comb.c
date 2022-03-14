@@ -1,11 +1,14 @@
 #include <stdio.h>
-/*
-print a digit in base 10 separated by ,
-*/
-
+/**
+ * main - Prints the alphabet without q and e.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	for (int i=48 ; i < 58 ; i++)
+	int i;
+
+	for (i=48 ; i < 58 ; i++)
 	{
 		putchar(i);
 		if (i != 57)

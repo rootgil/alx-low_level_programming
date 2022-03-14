@@ -1,11 +1,13 @@
 #include <stdio.h>
-/*
-Combinaison
-*/
-
+/**
+ * main - Prints the alphabet without q and e.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int i = 48 , j = 48 , k = 48 , l = 48;
+
 	while (i < 58)
 	{
 		j = 48;

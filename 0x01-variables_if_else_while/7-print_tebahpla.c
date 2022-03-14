@@ -1,12 +1,15 @@
 #include <stdio.h>
-/*
-Alphabet number in reverse
-*/
-
+/**
+ * main - Prints the alphabet without q and e.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	char alp[26]="abcdefghijklmnopqrstuvwxyz";
-	for (int i=25;i>=0;i--)
+	int i;
+
+	for (i=25;i>=0;i--)
 		putchar(alp[i]);
 	putchar('\n');
 	return (0);
