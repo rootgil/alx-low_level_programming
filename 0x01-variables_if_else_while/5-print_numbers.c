@@ -1,14 +1,17 @@
 #include <stdio.h>
-/*
-	print a digit in base 10
-*/
 
+/**
+ * main - Prints numbers from 0 to 9.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char num[10]="0123456789";
-	for (int i=0 ; i<10 ; i++)
+	int i;
+
+	for (i = 0; i < 10; i++)
 	{
-		putchar(num[i]);
+		printf("%d", i);
 	}
 	putchar('\n');
 	return (0);
