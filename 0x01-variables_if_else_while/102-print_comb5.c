@@ -22,6 +22,7 @@ int main(void)
 					op1 = (i * 10) + j;
 					op2 = (k * 10) + l;
 					if (op1 < op2)
+					{
 						putchar(i);
 						putchar(j);
 						putchar(' ');
@@ -31,6 +32,7 @@ int main(void)
 							break;
 						putchar(',');
 						putchar(' ');
+					}
 						l++;
 				}
 				k++;
